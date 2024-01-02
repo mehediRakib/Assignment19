@@ -9,7 +9,6 @@ const FrontPage = () => {
         <div>
             <Nabvar/>
             <FrontPageComponents/>
-            <Footer/>
         </div>
     );
 };

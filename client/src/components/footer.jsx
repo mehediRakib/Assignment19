@@ -43,7 +43,7 @@ const Footer = () => {
                         <p>Address:Rahimanagar,Kachua,Chandur,Bangladesh</p>
                         <p>Email:rakib107054@gmail.com</p>
                         <p>phone: 01611650721</p>
-
+                        <p></p>
                     </address>
                 </div>
 

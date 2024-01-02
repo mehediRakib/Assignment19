@@ -5,7 +5,7 @@ const Nabvar = () => {
    <div className="MainContainer">
        <div className="container">
            <nav className="navbar">
-               <p>My shop</p>
+               <p><a className="btn-danger" href="/">My shop</a></p>
                <ul className="nav-links">
                    <li><a href="/home">Home</a></li>
                    <li><a href="/about">About</a></li>

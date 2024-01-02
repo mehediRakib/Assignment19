@@ -26,6 +26,11 @@
     padding-bottom:10px;
     padding-left: 10px;
     box-sizing:border-box;
+    color: white;
+}
+.navbar a{
+    color: white;
+    list-style: none;
 }
 
 .nav-links {
