@@ -101,41 +101,54 @@ const HomeComponent = () => {
             </div>
 
 
-            <section>
-                        <div className="col-4">
-                            <div className="productList">
-                                <div className="card-body">
-                                    <img className="h-25" src="https://rukminim2.flixcart.com/image/850/1000/l5ld8y80/smartwatch/f/k/q/-original-imagg8d9hbkhfffg.jpeg?q=90"/>
+            <section className="productDemo">
+                    <div className="DemoChild">
+                        <img src="https://rukminim2.flixcart.com/image/850/1000/l5ld8y80/smartwatch/f/k/q/-original-imagg8d9hbkhfffg.jpeg?q=90"/>
+                        <hr/>
+                        <div className="DemoFooter">
+                            <p><span>Accessorieds</span></p>
+                            <p>Modern Smart Phone</p>
+                            <p><span>Price:$50</span></p>
+                        </div>
+                    </div>
+                    <div className="DemoChild">
+                        <img src="https://rukminim2.flixcart.com/image/850/1000/l5ld8y80/smartwatch/f/k/q/-original-imagg8d9hbkhfffg.jpeg?q=90"/>
+                        <hr/>
+                        <div className="DemoFooter">
+                            <p><span>Accessorieds</span></p>
+                            <p>Modern Smart Phone</p>
+                            <p><span>Price:$50</span></p>
+                        </div>
+                    </div>
+                    <div className="DemoChild">
+                        <img src="https://rukminim2.flixcart.com/image/850/1000/l5ld8y80/smartwatch/f/k/q/-original-imagg8d9hbkhfffg.jpeg?q=90"/>
+                        <hr/>
+                        <div className="DemoFooter">
+                            <p><span>Accessorieds</span></p>
+                            <p>Modern Smart Phone</p>
+                            <p><span>Price:$50</span></p>
+                        </div>
+                    </div>
 
-                                </div>
-                                <div className="card-footer">
-                                     <h4>Modern Smart Watch</h4>
-                                </div>
-                            </div>
-
-                            <div className="productList">
-                                <div className="card-body">
-                                    <img  src="https://rukminim2.flixcart.com/image/850/1000/l5ld8y80/smartwatch/f/k/q/-original-imagg8d9hbkhfffg.jpeg?q=90"/>
-
-                                </div>
-                                <div className="card-footer">
-                                    <h4>Modern Smart Watch</h4>
-                                </div>
-                            </div>
-
-
-                            <div className="productList">
-                                <div className="card-body">
-                                    <img src="https://rukminim2.flixcart.com/image/850/1000/l5ld8y80/smartwatch/f/k/q/-original-imagg8d9hbkhfffg.jpeg?q=90"/>
-
-                                </div>
-                                <div className="card-footer">
-                                    <h4>Modern Smart Watch</h4>
-                                </div>
-                            </div>
+                    <div className="DemoChild">
+                        <img src="https://rukminim2.flixcart.com/image/850/1000/l5ld8y80/smartwatch/f/k/q/-original-imagg8d9hbkhfffg.jpeg?q=90"/>
+                        <hr/>
+                        <div className="DemoFooter">
+                            <p><span>Accessorieds</span></p>
+                            <p>Modern Smart Phone</p>
+                            <p><span>Price:$50</span></p>
                         </div>
 
+                </div>
+
+
+
             </section>
+
+            <div className="mid">
+                <h1>Smart Passion<br/><b>With Smart Design</b></h1>
+                <button>Show Details</button>
+            </div>
         </div>
     );
 };
